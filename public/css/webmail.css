@@ -1,0 +1,443 @@
+/*	Styles globaux*/
+html,body
+{
+	height:100%;
+}
+
+
+body,td,th,p,a {
+	font-family: Verdana;
+	font-size: 13px;
+	line-height: 150%;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	margin:0px;
+}
+
+body{
+	margin-left:0px;
+	min-width:800px;
+}
+
+#container{
+	padding-top:4px;
+}
+
+ul
+{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+.droite
+{
+	float:right;
+} 
+
+/* --- ------- STYLES DU MENU DU HAUT ------- --*/
+#menu-top
+{
+	background-color: #FFF5EA;
+	height: 100%;
+}
+
+#menu-top .container
+{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	display: table;
+}
+
+.container #logo, #menu-top #nav
+{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.container #logo
+{
+	width: 250px;
+	font-family: "Times new roman";
+	font-size: 50px;
+	font-style: italic;
+	font-weight: bold;
+	color:#751C4B;
+}
+
+#menu-top #nav ul li
+{
+ 	display: inline-block;
+}
+ 
+#menu-top #nav ul li a
+{
+  	font-size: 22px;
+  	padding: 0 5px;
+}
+
+/* --- ------- STYLES DE LA PAGE DE LOGIN--------- --*/
+#login
+{
+	margin:0 auto;
+	width:500px;
+}
+
+.identifiant
+{
+	margin-right:20px;
+}
+
+#errorMessage
+{
+	font-size: 14px;
+    font-weight: bold;
+    color:red;
+    margin-bottom: 2px;
+	margin-bottom:2px;
+}
+
+
+/* --- ------- STYLES UNIQUES AU WEBMAIL--------- --*/
+
+/* --- -- Styles des boutons --- --*/
+
+.info{
+	text-align:center;
+	padding:5px 0px;
+}
+
+.bt{
+	background-color:white;
+	border:1px solid gray;
+	border-top:0px solid #eee;
+	border-left:0px solid #eee;
+	padding:10px;
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	font-size:12px;
+	line-height:130%;
+	text-decoration:none;
+	font-weight:bold;
+	color:#565656;
+	cursor:pointer;
+	padding:5px 10px 6px 7px; /* Links */
+}
+
+.bt img{
+	margin:0 3px -3px 0;
+	padding:0;
+	border:none;
+	width:16px;
+	height:16px;
+}
+
+.bt-red:hover{
+	background:#fbe3e4;
+	border:1px solid #fbc2c4;
+	color:#d12f19;
+}
+
+.bt-blue:hover{
+	background:#CED8F6;
+	border:1px solid #819FF7;
+	color:#2E64FE;
+}
+
+.bt-green:hover{
+	background:#CEF6CE;
+	border:1px solid #2EFE64;
+	color:#298A08;
+}
+
+.bt-orange:hover{
+	background:#F6E3CE;
+	border:1px solid #FAAC58;
+	color:#DF7401;
+}
+
+.bt-purple:hover{
+	background:#F2E0F7;
+	border:1px solid #E2A9F3;
+	color:#8904B1;
+}
+
+.bt-gray:hover{
+	background:#F2E0F7;
+	border:1px solid #E2A9F3;
+	color:#8904B1;
+}
+
+
+.hide
+{
+	display:none;
+}
+/* --- -- Styles du menu haut --- --*/
+#bandeau 
+{
+	margin:0 auto;
+}
+
+/* --- -- Styles du menu gauche --- --*/
+.menu_gauche
+{
+	display:inline-block;	
+	width:200px;
+}
+
+.menu_gauche li
+{
+	border:1px ridge black;
+	text-align:center;
+}
+
+
+.menu_gauche a 
+{
+	color:black;
+	background-color:#FECCBF;
+	font-style:bold;
+	text-decoration:none;
+	font-style:italic;
+	display:block;
+	height:30px;
+	line-height:30px;
+}
+
+.menu_gauche a:hover
+{
+	background-color:#FBDEDE;
+}
+
+.bt-menu
+{
+	cursor: pointer;
+}
+/* --- -- Styles de liste_mail  --- --*/
+.liste_mails table
+{
+	width:100%;
+}
+
+.liste_mails table tr
+{
+	cursor: pointer;
+}
+
+.liste_mails table tr:hover
+{
+	background-color:gray;
+}
+
+.liste_mails table td
+{
+	border-top:1px solid #E2E2E2;
+	height:2em;
+	overflow:hidden;
+}
+
+.liste_mails a
+{
+	text-decoration:none;
+	color:black;
+}
+
+.ls-case, .ls-sender, .ls-subject, .ls-date
+{
+	height:30px;
+	display:block;
+	overflow:hidden;
+}
+ 
+.ls-case
+{
+	width:100%;
+	text-align:center;
+}
+
+.boutons_liste_mails{
+	background:#BBCAF0;
+	height:25px;
+}
+
+.ls-sender
+{
+	width:250px;
+}
+
+.ls-subject
+{
+
+}
+
+.ls-date
+{
+	width:160px;
+}
+
+.boutons_liste_mails form 
+{
+	width:500px;
+	display:inline;
+}
+
+.boutons_liste_mails div
+{
+	display:inline;
+} 
+
+.case
+{
+	text-align:center;
+}
+
+.column1
+{
+	width:100px;
+	background-color:#F8E0E6;
+}
+
+.column2
+{
+	width:200px;
+	background-color:#F5A9BC;	
+}
+
+.column3
+{
+	width:auto;
+	background-color:#F8E0E6
+}
+
+.column4
+{
+	width:100px;
+	background-color:#F5A9BC;
+}
+
+.attachment
+{
+	display:block;
+	float:right;
+}
+
+.attachment img
+{
+	height:22px;
+	width:22px;
+}
+
+/* --- -- Styles de contenu_mails --- --*/
+
+.wrapper_options{
+	height:22px;
+}
+
+.options_mail
+{
+	background-color:#bbcaf0;
+	height:100%;
+}
+
+.options_mail input
+{
+	display:inline;
+	margin-left:5px;
+	padding:0;
+}
+
+.contenu_mail
+{
+	
+}
+
+.entete
+{
+	background-color:#DFE0F9;
+	padding:15px;
+	overflow:hidden;
+}
+
+.entete_gauche
+{
+	float:left;
+	min-width:600px;
+}
+
+.entete_droite
+{
+	float:right;
+	width:gray;
+}
+
+.link_dl
+{
+	cursor:pointer;
+	text-decoration: underline;
+	color: blue;
+}
+/*
+input[type="button"]{
+	padding:6px 12px;
+	cursor:pointer;
+	font-size:12px;
+	font-weight:bold;
+	color:white;
+	text-transform:uppercase;
+	background-image: linear-gradient(bottom, rgb(133,37,42) 28%, rgb(168,28,75) 84%);
+	background-image: -o-linear-gradient(bottom, rgb(133,37,42) 28%, rgb(168,28,75) 84%);
+	background-image: -moz-linear-gradient(bottom, rgb(133,37,42) 28%, rgb(168,28,75) 84%);
+	background-image: -webkit-linear-gradient(bottom, rgb(133,37,42) 28%, rgb(168,28,75) 84%);
+	background-image: -ms-linear-gradient(bottom, rgb(133,37,42) 28%, rgb(168,28,75) 84%);
+}
+*/
+        
+.contenu
+{
+	padding: 15px;
+
+}      
+/* --- -- Styles de envoi_message --- --*/
+
+.envoi_mail{
+	background-color:#DFE0F9;
+	height:100%;
+	padding:10px;
+}
+
+.envoimail_top p{
+	padding-bottom: 5px;
+	display:table;
+	width:100%;
+}
+
+.envoimail_top label{
+	width:50px;
+	display:table-cell;
+}
+
+.envoimail_top p input{
+	display:table-cell;
+	padding-bottom: 5px;
+	width:100%;
+}
+
+.envoimail_bot,input[type="file"]{
+	margin-left: 50px;
+	padding:10px 0px;
+}
+
+input[type="file"]{
+	display:inline;
+}
+
+#upload{
+	margin:5px 0px 0px 5px;
+	width: 500px;
+	border:1px solid gray;
+}
+

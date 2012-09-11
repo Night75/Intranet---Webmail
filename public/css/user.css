@@ -1,0 +1,128 @@
+/* -------------------------------- ------------------------------ -------------------------------- */
+/* --------------------_____________ STYLES GENERAUX ____________------------------------ */
+/* -------------------------------- ------------------------------ -------------------------------- */
+
+/*	Styles globaux*/
+
+body,td,th,p,a {
+	font-family: Verdana;
+	font-size: 13px;
+	line-height: 150%;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	margin:0px;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	min-width:800px;
+}
+
+h1{
+	margin:0px;
+	padding:17px 0px;
+}
+
+ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+.droite{
+	float:right;
+} 
+
+/* --------------------_ STYLES DE FORMULAIRES __------------------------ */
+
+/* --- -- Standard --- --*/
+label, input{
+	display:inline-block;
+}
+
+label{
+	width:250px;
+}
+
+input[type="text"], input[type="password"]{
+	width:250px;
+}
+
+input[type="submit"]{
+	margin-top:10px;
+}
+
+input[type="submit"],input[type="button"]{
+	padding:6px 12px;
+	cursor:pointer;
+	font-size:12px;
+	font-weight:bold;
+	color:white;
+	text-transform:uppercase;
+	background-image: linear-gradient(bottom, rgb(133,37,42) 28%, rgb(168,28,75) 84%);
+	background-image: -o-linear-gradient(bottom, rgb(133,37,42) 28%, rgb(168,28,75) 84%);
+	background-image: -moz-linear-gradient(bottom, rgb(133,37,42) 28%, rgb(168,28,75) 84%);
+	background-image: -webkit-linear-gradient(bottom, rgb(133,37,42) 28%, rgb(168,28,75) 84%);
+	background-image: -ms-linear-gradient(bottom, rgb(133,37,42) 28%, rgb(168,28,75) 84%);
+}
+
+input[type="submit"]:hover,input[type="button"]:hover{
+	background:rgb(184,27,82);
+}
+
+
+/* --- -- Erreurs --- --*/
+.bk-error, label.error{
+	font-style:italic;
+	color:#E02033;
+}
+
+input.error{
+	border:2px inset #E02033;
+}
+
+label.error{
+	margin-left:10px;
+	width:390px;
+}
+
+
+/* --------------------_____________ STYLES DE LA PAGE REGISTER ____________------------------------ */
+
+#panel-register{
+	margin:0 auto;
+	width:960px;
+	padding:10px;
+}
+
+/* --------------------_____________ STYLES DE LA PAGE LOGIN ____________------------------------ */
+#panel-login{
+	margin:0 auto;
+	width:960px;
+	padding:10px;
+}
+
+.bt-register{
+	display:inline-block;
+	margin:10px 0px 0px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
